@@ -42,3 +42,54 @@ input{
     font-weight: bold;
     white-space: nowrap;
 }
+
+.footer-container{
+    background-color: #21212b;
+    margin-top: 500px;
+    height: 500px;
+    width: 100%;
+}
+.icon1{
+    display: flex;
+    justify-content: center;
+}
+.icon1 img{
+    width: 60px;
+}
+.icon1 div {
+    padding: 20px;
+    margin:20 60px;
+    width: 50px;
+    border-radius:50% ;
+}
+.icon2{
+    display: flex;
+    justify-content: center;
+}
+.icon2 div{
+        padding: 20px;
+        margin:40px 200px;
+        width:50px;
+        border-radius:50% ;
+}
+.icon2 img{
+    width:50px ;
+}
+.icon3{
+    display: flex;
+    justify-content: center;
+}
+.icon3 div{
+    padding: 20px;
+        margin:40px 300px;
+        width:50px;
+        border-radius:50% ;
+}
+.icon3 img{
+    width: 50px;
+}
+
+.images{
+    border-radius: 10px;
+    background-color: #eeff21;
+}
