@@ -64,6 +64,15 @@ span{
     margin: 50px;
 }
 
+.project{
+    width: 50%;
+    margin: 50px;
+}
+.project img{
+    height: 400px;
+    width: 700px;
+    border-radius: 20px;
+}
 .footer-container{
     background-color: #21212b;
     margin-top: 500px;
