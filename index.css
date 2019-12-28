@@ -43,53 +43,97 @@ input{
     white-space: nowrap;
 }
 
+.info {
+    display: flex;
+    margin: 50px 0;
+    padding: 50px;
+    font-size:20px ;
+    font-weight: bold;
+    line-height: 60px;
+    background-color: lightseagreen;
+    margin-top: 0;
+}
+.info img{
+    border-radius: 50px;
+}
+span{
+    color: blue;
+}
+.info div{
+    width: 50%;
+    margin: 50px;
+}
+
 .footer-container{
     background-color: #21212b;
     margin-top: 500px;
-    height: 500px;
+    height: 700px;
     width: 100%;
 }
-.icon1{
+
+.footer-top{
+    height: 95%;
+}
+.footer-bottom{
+    text-align: center;
+    height: 5%;
+    background-color: #ffee21;
+}
+.portfolio{
     display: flex;
     justify-content: center;
-}
-.icon1 img{
-    width: 60px;
-}
-.icon1 div {
-    padding: 20px;
-    margin:20 60px;
-    width: 50px;
-    border-radius:50% ;
-}
-.icon2{
-    display: flex;
-    justify-content: center;
-}
-.icon2 div{
-        padding: 20px;
-        margin:40px 200px;
-        width:50px;
-        border-radius:50% ;
-}
-.icon2 img{
-    width:50px ;
-}
-.icon3{
-    display: flex;
-    justify-content: center;
-}
-.icon3 div{
-    padding: 20px;
-        margin:40px 300px;
-        width:50px;
-        border-radius:50% ;
-}
-.icon3 img{
-    width: 50px;
+    color: white;
+    padding: 10PX;
+    font-weight: 5000PX;
 }
 
-.images{
-    border-radius: 10px;
+.icon1, .icon2, .icon3 {
+    display: flex;
+    justify-content: center;
+}
+
+.services1{
+    margin: 30px 60px;
+    color: white;
+    text-align: center;
+}
+
+.services2{
+    margin: 30px 110px;
+    color: white;
+    text-align: center;
+}
+
+.services3{
+    margin: 30px 200px;
+    color: white;
+    text-align: center;
+}
+
+.services p {
+    padding: 20px 0;
+}
+
+.images {
+    width: 100px;
+    height: 100px;
     background-color: #eeff21;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.images img {
+    width: 50%;
+    height: 50%;
+}
+
+.service{
+    display: flex;
+    justify-content: center;
+    color: #21212b;
+    font-weight: bold;
+    margin-top: 200px;
+    padding-top: 10px;
 }
