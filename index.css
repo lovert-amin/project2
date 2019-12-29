@@ -22,14 +22,11 @@
     padding-right:20px;
     white-space: nowrap;
 }
-input{
-   width: 40%;
-   height: 20px;
-   margin: 0;
-   border-radius: 20px;
-   padding: 14px;
-   margin-top: 15px;
-   border: 0;
+.nav-container p{
+    color: white;
+    padding: 10px;
+    margin-top: 10px;
+    font-weight:bold;
 }
 .nav-container ul{
     display: flex;
@@ -37,8 +34,10 @@ input{
 }
 
 .nav-container li{
+    justify-content: space-evenly;
     list-style-type: none;
     margin: 20px ;
+    margin-right: 50px;
     font-weight: bold;
     white-space: nowrap;
 }
